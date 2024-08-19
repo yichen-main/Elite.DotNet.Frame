@@ -1,6 +1,0 @@
-@Elite.Framework.Launcher = http://localhost:5004
-
-GET {{Elite.Framework.Launcher}}/weatherforecast/
-Accept: application/json
-
-###
