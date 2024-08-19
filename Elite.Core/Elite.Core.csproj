@@ -1,0 +1,54 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+	<PropertyGroup>
+		<LangVersion>preview</LangVersion>
+		<NoWarn>1701;1702;1705;1591</NoWarn>
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+		<GenerateAssemblyFileVersionAttribute>False</GenerateAssemblyFileVersionAttribute>
+	</PropertyGroup>
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Autofac.Extensions.DependencyInjection" Version="9.0.0" />
+		<PackageReference Include="Figgle" Version="0.5.1" />
+		<PackageReference Include="LiteDB" Version="5.0.21" />
+		<PackageReference Include="MediatR" Version="12.4.0" />
+		<PackageReference Include="Microsoft.Extensions.Localization.Abstractions" Version="8.0.8" />
+		<PackageReference Include="Spectre.Console" Version="0.49.1" />
+	</ItemGroup>
+	<ItemGroup>
+		<Folder Include="Architects\Togethers\" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="Autofac" />
+		<Using Include="Autofac.Extensions.DependencyInjection" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="Microsoft.AspNetCore.Builder" />
+		<Using Include="Microsoft.AspNetCore.Http" />
+		<Using Include="Microsoft.AspNetCore.Localization" />
+		<Using Include="Microsoft.Extensions.DependencyInjection" />
+		<Using Include="Microsoft.Extensions.Localization" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="System.Collections.Concurrent" />
+		<Using Include="System.Globalization" />
+		<Using Include="System.Reflection" />
+		<Using Include="System.Text.Json" />
+		<Using Include="System.Text.RegularExpressions" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="Elite.Core.Architects.Primaries.Attributes" />
+		<Using Include="Elite.Core.Architects.Primaries.Composers" />
+		<Using Include="Elite.Core.Architects.Primaries.Enclosures" />
+		<Using Include="Elite.Core.Architects.Primaries.Inventories" />
+		<Using Include="Elite.Core.Architects.Primaries.Substances" />
+	</ItemGroup>
+</Project>

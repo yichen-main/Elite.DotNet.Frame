@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Resources\CateringIndustry\_english.json" />
+    <Content Remove="Resources\CateringIndustry\_simplified.json" />
+    <Content Remove="Resources\CateringIndustry\_traditional.json" />
+    <Content Remove="Resources\HumanResources\_english.json" />
+    <Content Remove="Resources\HumanResources\_simplified.json" />
+    <Content Remove="Resources\HumanResources\_traditional.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\CateringIndustry\_english.json" />
+    <EmbeddedResource Include="Resources\CateringIndustry\_simplified.json" />
+    <EmbeddedResource Include="Resources\CateringIndustry\_traditional.json" />
+    <EmbeddedResource Include="Resources\HumanResources\_english.json" />
+    <EmbeddedResource Include="Resources\HumanResources\_simplified.json" />
+    <EmbeddedResource Include="Resources\HumanResources\_traditional.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Elite.Domain.TestA\Elite.Domain.TestA.csproj" />
+  </ItemGroup>
+
+
+
+</Project>
