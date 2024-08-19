@@ -1,9 +1,9 @@
 ﻿using Elite.Domain.TestA.Hamsters;
-using Elite.Framework.Launcher.Controllers;
-using Elite.Framework.Launcher.Foundations;
+using Elite.Vehicle.Platform.Foundations;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Localization;
 
-namespace Elite.Framework.Launcher.NewFolder;
+namespace Elite.Vehicle.Platform.NewFolder;
 public class MyBackgroundService : IHostedService
 {
     public Task StartAsync(CancellationToken cancellationToken)
@@ -28,5 +28,5 @@ public class MyBackgroundService : IHostedService
     }
     public required IAppService AppService { get; init; }
     public required ITestService TestService { get; init; }
-    public required IStringLocalizer<WeatherForecastController> Localizer { get; init; }
+    public required IStringLocalizer<MyBackgroundService> Localizer { get; init; }
 }

@@ -1,7 +1,7 @@
 ﻿using Elite.Core.Architects.Primaries.Attributes;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace Elite.Framework.Launcher.NewFolder;
-
+namespace Elite.Vehicle.Platform.NewFolder;
 public interface IAppService
 {
     void DoWork();
@@ -12,6 +12,6 @@ file sealed class AppService : IAppService
 {
     public void DoWork()
     {
-        Console.WriteLine("Doing work...");
+        Console.WriteLine("Doing work... [AppService]");
     }
 }

@@ -1,8 +1,8 @@
-using Elite.Framework.Launcher.NewFolder;
+using Elite.DotNet.Frame.NewFolder;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
 
-namespace Elite.Framework.Launcher.Controllers
+namespace Elite.DotNet.Frame.Controllers
 {
     [ApiController]
     [Route("ass")]

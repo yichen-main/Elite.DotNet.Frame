@@ -1,0 +1,7 @@
+{
+  "culture": "zh-CN",
+  "texts": {
+    "DeviceIdIsRequired": "设备ID是必需的",
+    "DeviceIdDoesNotExist": "设备ID不存在"
+  }
+}

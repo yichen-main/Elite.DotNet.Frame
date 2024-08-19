@@ -18,8 +18,6 @@ public static class UnitHost
             {
                 ModuleLoader moduleLoader = new(containerBuilder);
                 moduleLoader.LoadModules(assembly);
-
-
             });
 
             if (services is not null) services(builder.Services);

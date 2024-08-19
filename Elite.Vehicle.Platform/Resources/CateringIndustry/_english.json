@@ -1,0 +1,7 @@
+{
+  "culture": "en-US",
+  "texts": {
+    "DeviceIdIsRequired": "Device ID is required",
+    "DeviceIdDoesNotExist": "Device ID does not exist"
+  }
+}

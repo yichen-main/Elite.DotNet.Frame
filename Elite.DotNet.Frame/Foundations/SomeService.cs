@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Localization;
 
-namespace Elite.Framework.Launcher.Foundations;
+namespace Elite.DotNet.Frame.Foundations;
 public class SomeService
 {
     private readonly IStringLocalizerFactory _localizerFactory;

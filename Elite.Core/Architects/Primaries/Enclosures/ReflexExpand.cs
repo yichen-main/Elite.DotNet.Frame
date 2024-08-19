@@ -1,6 +1,4 @@
-﻿using Elite.Core.Architects.Primaries.Inventories;
-
-namespace Elite.Core.Architects.Primaries.Enclosures;
+﻿namespace Elite.Core.Architects.Primaries.Enclosures;
 public static class ReflexExpand
 {
     public static Type[] GetTypes(this Type type)

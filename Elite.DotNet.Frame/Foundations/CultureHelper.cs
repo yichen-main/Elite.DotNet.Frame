@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace Elite.Framework.Launcher.Foundations;
+namespace Elite.DotNet.Frame.Foundations;
 public static class CultureHelper
 {
     public static IDisposable Use(string culture)
