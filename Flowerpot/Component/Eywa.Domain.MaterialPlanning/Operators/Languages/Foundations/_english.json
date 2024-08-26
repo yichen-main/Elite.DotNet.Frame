@@ -1,0 +1,12 @@
+{
+  "culture": "en-US",
+  "texts": {
+    "PartLabel": "Part",
+    "PartIdIsRequired": "Part ID is required",
+    "PartIdDoesNotExist": "Part ID does not exist",
+    "PartNoIndex": "Part number already exists",
+    "PartNoIsRequired": "Part number is required",
+    "PartNameIndex": "Part name already exists",
+    "PartNameIsRequired": "Part name is required"
+  }
+}

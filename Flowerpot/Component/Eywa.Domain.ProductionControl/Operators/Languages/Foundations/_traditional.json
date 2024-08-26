@@ -1,0 +1,23 @@
+{
+  "culture": "zh-TW",
+  "texts": {
+    "ModuleName": "生產管理模組",
+
+    "GroupLabel": "生產組別",
+    "GroupIdIsRequired": "組別ID是必需的",
+    "GroupIdDoesNotExist": "組別ID不存在",
+    "GroupNoIsRequired": "組別編號是必需的",
+    "GroupNoIndex": "組別編號已存在",
+    "GroupNameIsRequired": "組別名稱是必需的",
+
+    "MachineLabel": "機台",
+    "MachineIdIsRequired": "機台ID是必需的",
+    "MachineIdDoesNotExist": "機台ID不存在",
+    "MachineNoIsRequired": "機台編號是必需的",
+    "MachineNoIndex": "機台編號已存在",
+    "MachineNameIsRequired": "機台名稱是必需的",
+
+    "PositionNoIsRequired": "工位編號是必需的",
+    "PositionNameIsRequired": "工位名稱是必需的"
+  }
+}

@@ -1,0 +1,103 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<Version>8.8.64</Version>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+	<PropertyGroup>
+		<LangVersion>preview</LangVersion>
+		<NoWarn>1701;1702;1705;1591</NoWarn>
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+		<GenerateAssemblyFileVersionAttribute>False</GenerateAssemblyFileVersionAttribute>
+		<PackageIcon>eywa-simple-128x128.png</PackageIcon>
+	</PropertyGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="Commons\Attacheds\Languages\_english.json" />
+		<EmbeddedResource Include="Commons\Attacheds\Languages\_simplified.json" />
+		<EmbeddedResource Include="Commons\Attacheds\Languages\_traditional.json" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\..\Resource\eywa-simple-128x128.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="Dapper" />
+		<PackageReference Include="MediatR" />
+		<PackageReference Include="Microsoft.Data.Sqlite" />
+		<PackageReference Include="Npgsql.NodaTime" />
+		<PackageReference Include="WorkflowCore" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Eywa.Serve\Eywa.Serve.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="Autofac" />
+		<Using Include="Autofac.Extensions.DependencyInjection" />
+		<Using Include="Dapper" />
+		<Using Include="FastEndpoints" />
+		<Using Include="FluentValidation" />
+		<Using Include="HotChocolate" />
+		<Using Include="HotChocolate.Authorization" />
+		<Using Include="HotChocolate.Subscriptions" />
+		<Using Include="HotChocolate.Types" />
+		<Using Include="MediatR" />
+		<Using Include="MQTTnet" />
+		<Using Include="MQTTnet.Protocol" />
+		<Using Include="MQTTnet.Server" />
+		<Using Include="Npgsql" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="Microsoft.AspNetCore.Authentication.JwtBearer" />
+		<Using Include="Microsoft.AspNetCore.Http" />
+		<Using Include="Microsoft.Data.Sqlite" />
+		<Using Include="Microsoft.Extensions.Configuration" />
+		<Using Include="Microsoft.Extensions.DependencyInjection" />
+		<Using Include="Microsoft.Extensions.Localization" />
+		<Using Include="Microsoft.IdentityModel.Tokens" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="System.Collections.Concurrent" />
+		<Using Include="System.Collections.Frozen" />
+		<Using Include="System.ComponentModel" />
+		<Using Include="System.Data" />
+		<Using Include="System.Globalization" />
+		<Using Include="System.IdentityModel.Tokens.Jwt" />
+		<Using Include="System.Numerics" />
+		<Using Include="System.Reflection" />
+		<Using Include="System.Security.Claims" />
+		<Using Include="System.Text" />
+		<Using Include="System.Web" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="Eywa.Core.Architects.Primaries.Attributes" />
+		<Using Include="Eywa.Core.Architects.Primaries.Inventories" />
+		<Using Include="Eywa.Core.Architects.Primaries.Protections" />
+		<Using Include="Eywa.Core.Architects.Primaries.Substances" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="Eywa.Serve.Constructs.Foundations.Quarterlies" />
+		<Using Include="Eywa.Serve.Constructs.Grindstones.Composers" />
+		<Using Include="Eywa.Serve.Constructs.Grindstones.Inventories" />
+		<Using Include="Eywa.Serve.Constructs.Grindstones.Protections" />
+		<Using Include="Eywa.Serve.Constructs.Grindstones.Quarterlies" />
+		<Using Include="Eywa.Serve.Constructs.Grindstones.Substances" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="Eywa.Serve.Modularity.Antisepsis.HumanResources.StaffMembers" />
+		<Using Include="Eywa.Serve.Modularity.Commons.Attacheds.Composers" />
+		<Using Include="Eywa.Serve.Modularity.Commons.Attacheds.Enumerates" />
+		<Using Include="Eywa.Serve.Modularity.Commons.Attacheds.Quarterlies" />
+		<Using Include="Eywa.Serve.Modularity.Commons.Attacheds.Substances" />
+		<Using Include="Eywa.Serve.Modularity.Commons.Structures.Composers" />
+		<Using Include="Eywa.Serve.Modularity.Commons.Structures.Enumerates" />
+		<Using Include="Eywa.Serve.Modularity.Commons.Structures.Quarterlies" />
+		<Using Include="Eywa.Serve.Modularity.Commons.Structures.Protections" />
+		<Using Include="Eywa.Serve.Modularity.Commons.Structures.Substances" />
+		<Using Include="Eywa.Serve.Modularity.Transforms.InstantKanbans.ProductWorkshops" />
+	</ItemGroup>
+</Project>

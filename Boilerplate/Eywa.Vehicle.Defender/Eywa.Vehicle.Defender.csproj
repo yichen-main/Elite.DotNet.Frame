@@ -1,0 +1,81 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PublishAot>false</PublishAot>
+		<InvariantGlobalization>false</InvariantGlobalization>
+	</PropertyGroup>
+	<PropertyGroup>
+		<NoWarn>$(NoWarn);1591</NoWarn>
+		<ServerGarbageCollection>False</ServerGarbageCollection>
+		<ConcurrentGarbageCollection>True</ConcurrentGarbageCollection>
+		<IsTransformWebConfigDisabled>True</IsTransformWebConfigDisabled>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+		<ApplicationIcon>eywa-simple-128x128.ico</ApplicationIcon>
+	</PropertyGroup>
+	<ItemGroup>
+		<Content Include="eywa-simple-128x128.ico" />
+	</ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\Flowerpot\Component\Eywa.Domain.FacilityManagement\Eywa.Domain.FacilityManagement.csproj" />
+		<ProjectReference Include="..\..\Flowerpot\Component\Eywa.Domain.HumanResources\Eywa.Domain.HumanResources.csproj" />
+		<ProjectReference Include="..\..\Flowerpot\Component\Eywa.Domain.MaterialPlanning\Eywa.Domain.MaterialPlanning.csproj" />
+		<ProjectReference Include="..\..\Flowerpot\Component\Eywa.Domain.ProductionControl\Eywa.Domain.ProductionControl.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+		<None Update="appsettings.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="Autofac" />
+		<Using Include="HotChocolate" />
+		<Using Include="HotChocolate.Subscriptions" />
+		<Using Include="HotChocolate.Types" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="Microsoft.AspNetCore.Builder" />
+		<Using Include="Microsoft.AspNetCore.Mvc" />
+		<Using Include="Microsoft.Extensions.Configuration" />
+		<Using Include="Microsoft.Extensions.DependencyInjection" />
+		<Using Include="Microsoft.Extensions.Localization" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="System.Reflection" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="Eywa.Core.Architects.Primaries.Attributes" />
+		<Using Include="Eywa.Core.Architects.Primaries.Composers" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="Eywa.Serve.Constructs.Foundations.Configures" />
+		<Using Include="Eywa.Serve.Constructs.Grindstones.Composers" />
+		<Using Include="Eywa.Serve.Constructs.Grindstones.Protections" />
+		<Using Include="Eywa.Serve.Constructs.Grindstones.Substances" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="Eywa.Serve.Modularity.Commons.Attacheds.Enumerates" />
+		<Using Include="Eywa.Serve.Modularity.Commons.Attacheds.Substances" />
+		<Using Include="Eywa.Serve.Modularity.Commons.Structures.Composers" />
+		<Using Include="Eywa.Serve.Modularity.Commons.Structures.Quarterlies" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="Eywa.Domain.FacilityManagement" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="Eywa.Domain.HumanResources" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="Eywa.Domain.MaterialPlanning" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="Eywa.Domain.ProductionControl" />
+	</ItemGroup>
+	<ItemGroup>
+		<Using Include="Eywa.Vehicle.Defender.Foundations" />
+		<Using Include="Eywa.Vehicle.Defender.Pressurizers" />
+	</ItemGroup>
+</Project>

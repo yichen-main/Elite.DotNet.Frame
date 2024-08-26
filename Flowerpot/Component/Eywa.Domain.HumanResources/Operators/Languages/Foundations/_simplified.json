@@ -1,0 +1,44 @@
+{
+  "culture": "zh-CN",
+  "texts": {
+    "ModuleName": "人力资源模组",
+
+    "UserIdIsRequired": "用户ID是必需的",
+    "UserNoIsRequired": "用户编号是必需的",
+    "UserNoIndex": "用户编号已存在",
+    "UserNameIsRequired": "用户名称是必需的",
+    "EmailIsRequired": "电子邮件是必需的",
+    "EmailFormatError": "电子邮件格式错误",
+    "EmailIndex": "电子邮件已存在",
+    "SignInFailed": "登入失败",
+    "TokenInvalid": "令牌失效",
+    "UserIdDoesNotExist": "用户ID不存在",
+
+    "AccountInvalid": "帐户失效",
+    "AccountIsRequired": "帐户是必需的",
+    "AccountDoesNotExist": "帐户不存在",
+
+    "PasswordIsRequired": "密码是必需的",
+    "WrongPassword": "密码错误",
+    "SystemAccountIsRequired": "系统帐户是必需的",
+    "SystemAccountAlreadyExists": "系统帐号已存在",
+
+    "NameIdentifierIsRequired": "名称标识符是必需的",
+    "RefreshTokenIsRequired": "刷新令牌是必需的",
+    "RolePolicyMismatch": "角色策略不匹配",
+    "AccessTypeMismatch": "访问类型不匹配",
+    "NoPermissionToCreateAdministrator": "无权限建立管理员",
+
+    "ModuleIdIsRequired": "模组ID是必需的",
+    "ModuleIdDoesNotExist": "模组ID不存在",
+    "ModuleUserAlreadyExists": "模组用户已存在",
+    "DomainTypeExisted": "领域类型已存在",
+    "DomainTypeMismatch": "领域类型不匹配",
+
+    "PositionIdRequired": "职位ID是必需的",
+    "PositionIdDoesNotExist": "职位ID不存在",
+    "PositionNoIsRequired": "职位编号是必需的",
+    "PositionNoIndex": "职位编号已存在",
+    "PositionNameIsRequired": "职位名称是必需的"
+  }
+}

@@ -1,0 +1,1 @@
+﻿await MiddleHost.CreateAsync<StandardFactory>().ConfigureAwait(false);

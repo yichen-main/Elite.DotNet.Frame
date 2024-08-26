@@ -1,0 +1,23 @@
+{
+  "culture": "en-US",
+  "texts": {
+    "ModuleName": "Production Control",
+
+    "GroupLabel": "Production Ggroup",
+    "GroupIdIsRequired": "Ggroup ID is required",
+    "GroupIdDoesNotExist": "Ggroup ID does not exist",
+    "GroupNoIsRequired": "Ggroup number is required",
+    "GroupNoIndex": "Ggroup number already exists",
+    "GroupNameIsRequired": "Ggroup name is required",
+
+    "MachineLabel": "Machine",
+    "MachineIdIsRequired": "Machine ID is required",
+    "MachineIdDoesNotExist": "Machine ID does not exist",
+    "MachineNoIsRequired": "Machine number is required",
+    "MachineNoIndex": "Machine number already exists",
+    "MachineNameIsRequired": "Machine name is required",
+
+    "PositionNoIsRequired": "Position number is required",
+    "PositionNameIsRequired": "Position name is required"
+  }
+}

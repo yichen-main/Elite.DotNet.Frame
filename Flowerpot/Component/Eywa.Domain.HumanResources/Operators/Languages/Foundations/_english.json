@@ -1,0 +1,43 @@
+{
+  "culture": "en-US",
+  "texts": {
+    "ModuleName": "Human Resources",
+
+    "UserIdIsRequired": "User ID is required",
+    "UserNoIsRequired": "User number is required",
+    "UserNoIndex": "User number already exists",
+    "UserNameIsRequired": "User name is required",
+    "EmailIsRequired": "Email address is required",
+    "EmailFormatError": "Email address format error",
+    "EmailIndex": "Email address already exists",
+    "SignInFailed": "Sign-in failed",
+    "TokenInvalid": "Token invalid",
+    "UserIdDoesNotExist": "User ID does not exist",
+
+    "AccountInvalid": "Account invalid",
+    "AccountIsRequired": "Account is required",
+    "AccountDoesNotExist": "Account does not exist",
+
+    "PasswordIsRequired": "Password is required",
+    "WrongPassword": "Wrong password",
+    "SystemAccountIsRequired": "System account is required",
+    "SystemAccountAlreadyExists": "System account already exists",
+
+    "NameIdentifierIsRequired": "Name identifier is required",
+    "RefreshTokenIsRequired": "Refresh token is required",
+    "RolePolicyMismatch": "Role policy mismatch",
+    "AccessTypeMismatch": "Access type mismatch",
+    "NoPermissionToCreateAdministrator": "No permission to create administrator",
+
+    "ModuleIdIsRequired": "Module ID is required",
+    "ModuleUserAlreadyExists": "Module user already exists",
+    "DomainTypeExisted": "Domain type existed",
+    "DomainTypeMismatch": "Domain type mismatch",
+
+    "PositionIdRequired": "Position ID is required",
+    "PositionIdDoesNotExist": "Position ID does not exist",
+    "PositionNoIsRequired": "Position number is required",
+    "PositionNoIndex": "Position number already exists",
+    "PositionNameIsRequired": "Position name is required"
+  }
+}
